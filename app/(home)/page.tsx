@@ -3,7 +3,7 @@ import Image from "next/image";
 import Header from "../_components/hearder";
 import { de, ptBR } from "date-fns/locale";
 import Search from "./_componentes/search";
-import BookingItem from "../_components/ui/booking-item";
+import BookingItem from "../_components/booking-item";
 import BarbershopItem from "./_componentes/barbershop-item";
 import { db } from "../_lib/prisma";
 
