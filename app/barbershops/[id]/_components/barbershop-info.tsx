@@ -13,14 +13,14 @@ interface BarbershopInfoProps {
 const BarbershopInfo = ({barbershop}: BarbershopInfoProps) => {
     const router = useRouter();
 
-    const handleBackclic = () => {
+    const handlerBackclic = () => {
          router.back()
     }
     return ( 
         <div>
             <div className="h-[250px] w-full relative">
 
-                <Button onClick={handleBackclic} size="icon" variant="outline" className="z-50 absolute top-4 left-4">
+                <Button onClick={handlerBackclic} size="icon" variant="outline" className="z-50 absolute top-4 left-4">
                     <ChevronLeftIcon />
                 </Button>
 
